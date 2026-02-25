@@ -1,0 +1,323 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.5477841, 23.0407609] },
+      "properties": { "highway": "street_lamp", "natural": "tree" },
+      "geohash": "ts5e4f7wj"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.5477374, 23.0405288] },
+      "properties": { "highway": "street_lamp", "natural": "tree" },
+      "geohash": "ts5e4f7su"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.5950495, 23.0188491] },
+      "properties": { "highway": "street_lamp", "lamp_type": "electric" },
+      "geohash": "ts5dgyqne"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.5483959, 23.0064738] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "ts5dfuhnk"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [69.8367124, 22.3815955] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "tecxm4mw1"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [69.8362513, 22.3817957] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "tecxm4mpq"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [69.8357775, 22.3818256] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "tecxm4kze"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [69.8361472, 22.381498] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "tecxm4mjs"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [69.8354837, 22.3815539] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "tecxm4kwh"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [69.8349818, 22.3817736] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "tecxm4kr3"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [69.8345741, 22.3820115] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "tecxm4ebx"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [69.834591, 22.3815643] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "tecxm47yp"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [69.8342831, 22.3811704] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "tecxm47gb"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [69.8338164, 22.3811288] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "tecxm477t"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [69.8343663, 22.3843999] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "tecxm4gyd"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.572344, 23.0286562] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "ts5e52jxd"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.5723317, 23.0285898] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "ts5e52jx3"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.5722814, 23.0288902] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "ts5e52m90"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.5722189, 23.0290667] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "ts5e52m6p"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.5721549, 23.0292445] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "ts5e52m7j"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.5720788, 23.0294585] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "ts5e52mkk"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.5730776, 23.0289211] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "ts5e52q15"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.5730584, 23.0290294] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "ts5e52q1f"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.5730407, 23.0291415] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "ts5e52q46"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.5730215, 23.0292472] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "ts5e52q51"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.5734251, 23.0270805] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "ts5dgryq7"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.5734032, 23.0271901] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "ts5dgryr4"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.5733827, 23.0272958] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "ts5dgryrd"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.5733621, 23.0274091] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "ts5e52n23"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.5733444, 23.0275073] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "ts5e52n2c"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.5716694, 23.0325996] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "ts5e52vnd"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.5714926, 23.032822] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "ts5e52uzy"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.571653, 23.0328267] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "ts5e52vpf"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.5718732, 23.0301355] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "ts5e52t0r"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.5720874, 23.029946] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "ts5e52mrh"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.5720064, 23.0296764] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "ts5e52mmd"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.5721611, 23.0297216] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "ts5e52mmv"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.5719388, 23.0299121] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "ts5e52mqb"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.5720216, 23.0301713] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "ts5e52t26"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.5740964, 23.0147815] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "ts5dgmwyg"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.574091, 23.0146736] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "ts5dgmwy4"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.574077, 23.0145577] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "ts5dgmwvd"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.5739834, 23.0143517] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "ts5dgmwu2"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.5739596, 23.0239531] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "ts5dgrqsp"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.573946, 23.0240579] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "ts5dgrqsz"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.5735151, 23.0266541] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "ts5dgry7v"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.5735302, 23.0265497] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "ts5dgry7m"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.5735575, 23.0264411] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "ts5dgry6w"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.5735756, 23.0263338] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "ts5dgry6n"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.5735953, 23.0262169] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "ts5dgry3r"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.573618, 23.026118] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "ts5dgry2z"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.5736362, 23.026008] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "ts5dgry80"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.5736573, 23.025891] },
+      "properties": { "highway": "street_lamp" },
+      "geohash": "ts5dgrwx8"
+    }
+  ]
+}
