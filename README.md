@@ -29,3 +29,10 @@
 | **LLM Orchestration** | LangChain |
 | **Image Processing** | OpenCV |
 | **Backend API** | FastAPI |
+
+---
+
+### LLD DESIGN
+
+<img width="1016" height="750" alt="Screenshot 2026-02-25 at 7 57 08 PM" src="https://github.com/user-attachments/assets/ab7acb48-7518-4494-80c3-69aa9dc1814d" />
+
