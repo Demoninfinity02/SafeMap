@@ -1,0 +1,15 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [93.1784955, 25.7493051] },
+      "properties": {
+        "direction": "360",
+        "highway": "street_lamp",
+        "lamp_type": "electric"
+      },
+      "geohash": "whd62rd88"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>India Streetlights Map</title>
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+  <!-- Marker Cluster CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    #map {
+      height: 100vh;
+      width: 100%;
+    }
+    .header {
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      z-index: 1000;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  🇮🇳 India Streetlights Infrastructure Map
+</div>
+
+<div id="map"></div>
+
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<!-- Marker Cluster JS -->
+<script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+
+<script>
+
+// Initialize map centered on India
+var map = L.map('map').setView([22.9734, 78.6569], 5);
+
+// OpenStreetMap tiles
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '&copy; OpenStreetMap contributors'
+}).addTo(map);
+
+// Create cluster group
+var markers = L.markerClusterGroup();
+
+// Load local GeoJSON
+fetch("streetlight.geojson")
+  .then(response => response.json())
+  .then(data => {
+
+    L.geoJSON(data, {
+      pointToLayer: function (feature, latlng) {
+        return L.marker(latlng);
+      },
+      onEachFeature: function (feature, layer) {
+        if (feature.properties) {
+          let popupContent = "<b>Streetlight</b><br>";
+          for (let key in feature.properties) {
+            popupContent += key + ": " + feature.properties[key] + "<br>";
+          }
+          layer.bindPopup(popupContent);
+        }
+      }
+    }).eachLayer(function(layer) {
+      markers.addLayer(layer);
+    });
+
+    map.addLayer(markers);
+  })
+  .catch(error => {
+    console.error("Error loading GeoJSON:", error);
+  });
+
+</script>
+
+</body>
+</html>

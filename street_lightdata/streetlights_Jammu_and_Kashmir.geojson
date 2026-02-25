@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [75.3034771, 33.70767] },
+      "properties": {
+        "direction": "180",
+        "highway": "street_lamp",
+        "lamp_type": "electric"
+      },
+      "geohash": "ttvxc8636"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [74.7854348, 32.8715718] },
+      "properties": {
+        "highway": "street_lamp",
+        "lamp_mount": "straight_mast",
+        "lamp_type": "solar_led",
+        "support": "pole"
+      },
+      "geohash": "ttv5jb14f"
+    }
+  ]
+}
