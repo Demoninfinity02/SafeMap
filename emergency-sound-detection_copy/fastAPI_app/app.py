@@ -19,7 +19,7 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from werkzeug.utils import secure_filename
 
-# ── App configuration ─────────────────────────────────────────
+
 app = FastAPI(title="Emergency Sound Detection")
 
 BASE_DIR = os.path.dirname(__file__)
@@ -33,7 +33,7 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 app.mount("/static", StaticFiles(directory=os.path.join(BASE_DIR, "static")), name="static")
 templates = Jinja2Templates(directory=os.path.join(BASE_DIR, "templates"))
 
-# ── Load trained artifacts ────────────────────────────────────
+
 with open(os.path.join(BASE_DIR, "model.pkl"), "rb") as f:
     model = pickle.load(f)
 
@@ -44,7 +44,7 @@ with open(os.path.join(BASE_DIR, "features.pkl"), "rb") as f:
     selected_features = pickle.load(f)
 
 
-# ── Feature extraction (mirrors notebook logic) ──────────────
+
 def extract_features(signal, sr):
     """Extract all audio features from a signal."""
     stft = np.abs(librosa.stft(y=signal))
@@ -180,7 +180,7 @@ def predict_audio(filepath):
             os.remove(converted_path)
 
 
-# ── Helper ────────────────────────────────────────────────────
+
 def allowed_file(filename: str) -> bool:
     return "." in filename and filename.rsplit(".", 1)[1].lower() in ALLOWED_EXTENSIONS
 
@@ -192,7 +192,7 @@ async def save_upload(upload_file: UploadFile, dest: str):
         f.write(contents)
 
 
-# ── Routes ────────────────────────────────────────────────────
+
 @app.get("/", response_class=HTMLResponse)
 async def index(request: Request):
     return templates.TemplateResponse("index.html", {"request": request})
@@ -272,6 +272,5 @@ async def api_predict(file: UploadFile = File(None)):
             os.remove(filepath)
 
 
-# ── Run ───────────────────────────────────────────────────────
 if __name__ == "__main__":
-    uvicorn.run("app:app", host="0.0.0.0", port=5001, reload=True)
+    uvicorn.run("app:app", host="127.0.0.1", port=5002, reload=True)
