@@ -6,3 +6,4 @@
 
 ## DB SCHEMA
 
+<img width="3602" height="1644" alt="safemap_Sensor_Mesh_Network" src="https://github.com/user-attachments/assets/0a69a139-d9b3-4dee-a102-b284f2bb5861" />
