@@ -7,7 +7,7 @@ Current navigation apps are obsessed with time but blind to humanity. They route
 ---
 ### App to download link
 
-[![Download APK](https://img.shields.io/badge/Download-APK-green?style=for-the-badge)](https://github.com/Demoninfinity02/SafeMap/releases/download/v1.1/safe_map_final.apk)
+[![Download APK](https://img.shields.io/badge/Download-APK-green?style=for-the-badge)](https://github.com/Demoninfinity02/SafeMap/releases/download/v1.1/safemap.apk)
 
 ## Features
 
