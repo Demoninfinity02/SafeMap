@@ -220,6 +220,15 @@ The backend powers the AI routing, Siren Detection, and Drowsiness checks.
    ```
    *(Using `0.0.0.0` is crucial so your phone can access the server over your local Wi-Fi).*
 
-**Note your computer's local IP address** (e.g., `192.168.1.5` or `10.1.7.47`). You will need this to connect the app later.
+**> Note your computer's local IP address** (e.g., `192.168.1.5` or `10.1.7.47`). You will need this to connect the app later.
+
+For eg: 
+
+Open App -> Go to Settings -> Scroll Down -> Click on Backend API URL -> change the Backend API URL to http://<YOUR_LOCAL_IP_ADDRESS>
+
+> This is needed as backend will run on your Local Machine (laptop)
+
+<img width="1080" height="2400" alt="Screenshot_20260226-124125" src="https://github.com/user-attachments/assets/d191a30a-db52-4fb7-a785-47b3bd2f92f6" />
+
 
 ---
