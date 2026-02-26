@@ -32,7 +32,7 @@
 
 ---
 
-## Running Application
+## 1. Running Application
 
 ### OPTION 1 (RECOMMENDED) : Install .apk file from github releases
 
