@@ -5,6 +5,12 @@
 Current navigation apps are obsessed with time but blind to humanity. They route us through toxic pollution, dark isolated streets, and over hazardous roads — just to save sixty seconds. **SafeMap changes that.**
 
 
+---
+### App to download link
+
+[![Download APK](https://img.shields.io/badge/Download-APK-green?style=for-the-badge)](https://github.com/Demoninfinity02/SafeMap/releases/download/v1.1/safemap.apk)
+
+👉 [Run Backend Server Instructions](#2-running-backend) (MUST)
 
 ---
 
@@ -15,13 +21,6 @@ APP DATA FLOW
 
 ---
 
-
----
-### App to download link
-
-[![Download APK](https://img.shields.io/badge/Download-APK-green?style=for-the-badge)](https://github.com/Demoninfinity02/SafeMap/releases/download/v1.1/safemap.apk)
-
-👉 [Run Backend Server Instructions](#2-running-backend) (MUST)
 
 ## Features
 
