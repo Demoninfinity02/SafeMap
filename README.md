@@ -10,7 +10,7 @@ Current navigation apps are obsessed with time but blind to humanity. They route
 
 [![Download APK](https://img.shields.io/badge/Download-APK-green?style=for-the-badge)](https://github.com/Demoninfinity02/SafeMap/releases/download/v1.1/safemap.apk)
 
-👉 [Run Backend Server Instructions](#2-running-backend) (MUST)
+👉 [Run Backend Server Instructions](#2-running-backend-compulsory) (MUST)
 
 ---
 
@@ -228,7 +228,7 @@ Open App -> Go to Settings -> Scroll Down -> Click on Backend API URL -> change 
 
 > This is needed as backend will run on your Local Machine (laptop)
 
-<img width="1080" height="2400" alt="Screenshot_20260226-124125" src="https://github.com/user-attachments/assets/d191a30a-db52-4fb7-a785-47b3bd2f92f6" />
+<img width="540" height="1200" alt="Screenshot_20260226-124125" src="https://github.com/user-attachments/assets/d191a30a-db52-4fb7-a785-47b3bd2f92f6" />
 
 
 ---
