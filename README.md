@@ -18,6 +18,8 @@ APP DATA FLOW
 
 <img width="1134" height="786" alt="image" src="https://github.com/user-attachments/assets/593636da-1057-4bb1-b8ce-ad2acac95bdf" />
 
+LINK-> https://lucid.app/lucidchart/07543cdf-a6c8-45cc-a6ce-fec46c5b26ac/edit?viewport_loc=-2366%2C-634%2C7286%2C3489%2C0_0&invitationId=inv_98676513-aa8a-46cb-8be0-2893bd5ebf36
+
 
 ---
 
