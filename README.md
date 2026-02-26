@@ -1,4 +1,4 @@
-# SafeMap
+# SafeMap.
 
 ### HIGH LEVEL SYSTEM DESIGN OF SAFEMAP APPLICATION.
 
@@ -11,7 +11,7 @@
 
 ---
 
-### DB Schema
+### DB Schema.
 
 <img width="3602" height="1644" alt="safemap_Sensor_Mesh_Network" src="https://github.com/user-attachments/assets/df8ff90e-af57-4828-9dac-6035554a88d7" />
 
@@ -32,7 +32,7 @@
 
 ---
 
-## 1. Running Application
+## 1. Running Application.
 
 ### OPTION 1 (RECOMMENDED) : Install .apk file from github releases
 
