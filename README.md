@@ -97,6 +97,7 @@ Before the engine even starts, SafeMap uses **high-precision MediaPipe AI** to s
 | **Road Accidents** | Real-time pothole & hazard warnings reduce collision risk |
 | **Emergency Response** | Multi-device siren detection clears roads for ambulances & fire trucks |
 | **Women's Safety** | Night-safe routing through well-lit, high-traffic corridors |
+| **Breath Easy Mode**| Optimizes routes for minimal pollution exposure (AQI, PM2.5, NO₂) and uses AI to summarize air quality differences.
 | **Drowsy Driving** | Pre-ride fatigue checks prevent impaired driving |
 | **Community Safety** | Crowdsourced incident reporting creates a live urban intelligence layer |
 
