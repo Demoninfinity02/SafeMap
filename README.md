@@ -100,7 +100,7 @@ Before the engine even starts, SafeMap uses **high-precision MediaPipe AI** to s
 | **Drowsy Driving** | Pre-ride fatigue checks prevent impaired driving |
 | **Community Safety** | Crowdsourced incident reporting creates a live urban intelligence layer |
 
-> *"SafeMap — because reaching faster means nothing if you don't reach safer."*
+
 
 ---
 
