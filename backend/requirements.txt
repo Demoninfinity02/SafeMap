@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+requests
+python-dotenv
+pydantic
+langchain
+langchain-community
+langchain-ollama
+librosa
+numpy
+pandas
+scikit-learn
+python-multipart
+mediapipe
+opencv-python-headless
