@@ -198,7 +198,7 @@ Navigate to `safe_map_git` — it contains the whole codebase for the mobile app
 
 ---
 
-### 2. Running Backend
+### 2. Running Backend (COMPULSORY)
 
 The backend powers the AI routing, Siren Detection, and Drowsiness checks.
 
