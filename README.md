@@ -144,7 +144,7 @@ Before the engine even starts, SafeMap uses **high-precision MediaPipe AI** to s
 1. Install apk files from **GitHub releases** and start using the application.
 2. To connect backend, open the app, go to **Settings**, scroll to the bottom, and enter the IP address of the computer where the backend is running.
 
-#### OPTION 2 : DEV MODE — Run application using laptop
+#### OPTION 2 : DEV MODE — Run application through laptop on phone.
 
 ##### Prerequisites
 
