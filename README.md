@@ -1,23 +1,109 @@
-# SafeMap.
+# SafeMap
 
-### HIGH LEVEL SYSTEM DESIGN OF SAFEMAP APPLICATION.
+> **The world's first Urban Safety & Health Intelligence Platform that prioritizes your life over your clock.**
+
+Current navigation apps are obsessed with time but blind to humanity. They route us through toxic pollution, dark isolated streets, and over hazardous roads — just to save sixty seconds. **SafeMap changes that.**
+
+---
+
+## Features
+
+### 1. Dynamic Safety Index
+
+Each route is evaluated using **street light density, crowding levels, safety conditions, and environmental factors** to produce a real-time Safety Score.
+
+- Search a destination and see **multiple route options** with a safety score beside each.
+- Instead of just the fastest route, SafeMap suggests the **safest optimal route**.
+- Routes are dynamically re-ranked as live conditions change.
+
+---
+
+### 2. Collaborative Pothole & Hazard Network
+
+Using the **accelerometer and gyroscope** already built into every smartphone, SafeMap automatically fingerprints road hazards.
+
+- Potholes are detected in real time while driving — no manual input needed.
+- Detected hazards are **instantly shared** with every user navigating the same route, creating a **live, crowdsourced safety map**.
+- Every driver in the network is warned **before they hit a single bump**.
+
+---
+
+### 3. AI-Powered Incident Reporting & SOS
+
+Users can report live incidents by uploading photos and descriptions.
+
+- **AI summarizes, analyzes, and classifies** the incident automatically.
+- Alerts are broadcast in real time — dynamically recalculating nearby users' routes.
+- Built-in **SOS system** allows users to instantly call emergency numbers with one tap.
+
+---
+
+### 4. Multi-Device Emergency Vehicle AI Detection (Sensor Mesh Network)
+
+SafeMap uses **edge-AI (a trained Random Forest ML model)** to detect emergency sirens through the device microphone.
+
+- Nearby devices automatically form a **Sensor Mesh Network** — a decentralized, real-time communication layer between all SafeMap users on the road.
+- To eliminate false alarms, the system requires **multi-device confirmation** — all drivers within a **400m range** must corroborate the detection through the mesh.
+- Once confirmed, a **route-wide "Give Way" alert** propagates across the mesh to nearby drivers.
+- This significantly cuts down emergency response times — and **saves lives**.
+
+---
+
+### 5. Women's Night Safety & Infrastructure Mode
+
+A specialized **Women's Mode** analyzes street lighting density, foot traffic data, and identifies narrow or isolated roads.
+
+- Isolated and poorly lit routes are **intentionally penalized** in routing.
+- Navigation after dark always prioritizes **visibility and public safety** over speed.
+- Unsafe roads are highlighted in **red**; safer, well-lit roads in **green**.
+
+---
+
+### 6. Pre-Ride Drowsiness Guard
+
+Before the engine even starts, SafeMap uses **high-precision MediaPipe AI** to scan for fatigue and eye irritation via the front camera.
+
+- Real-time **eye-blink and facial landmark detection**.
+- If fatigue is detected, the system warns: **"Driver Fatigue Detected — Please Rest"**.
+- Ensures you are mentally and physically fit to drive **before you enter the flow of traffic**.
+
+---
+
+## Impact
+
+| Area | How SafeMap Helps |
+|------|-------------------|
+| **Road Accidents** | Real-time pothole & hazard warnings reduce collision risk |
+| **Emergency Response** | Multi-device siren detection clears roads for ambulances & fire trucks |
+| **Women's Safety** | Night-safe routing through well-lit, high-traffic corridors |
+| **Drowsy Driving** | Pre-ride fatigue checks prevent impaired driving |
+| **Community Safety** | Crowdsourced incident reporting creates a live urban intelligence layer |
+
+> *"SafeMap — because reaching faster means nothing if you don't reach safer."*
+
+---
+
+## System Architecture
+
+### High Level System Design
 
 <img width="1806" height="882" alt="Screenshot 2026-02-25 161816" src="https://github.com/user-attachments/assets/43ffca94-6a34-4fa0-bda8-292542e8fd25" />
 
 ---
-### LOW LEVEL SYSTEM DESIGN OF SAFEMAP APPLICATION.
 
-<img width="1016" height="750" alt="Screenshot 2026-02-25 at 7 57 08 PM" src="https://github.com/user-attachments/assets/ab7acb48-7518-4494-80c3-69aa9dc1814d" />
+### Low Level System Design
+
+<img width="1016" height="750" alt="Screenshot 2026-02-25 at 7 57 08 PM" src="https://github.com/user-attachments/assets/ab7acb48-7518-4494-80c3-69aa9dc1814d" />
 
 ---
 
-### DB Schema.
+### DB Schema
 
 <img width="3602" height="1644" alt="safemap_Sensor_Mesh_Network" src="https://github.com/user-attachments/assets/df8ff90e-af57-4828-9dac-6035554a88d7" />
 
 ---
 
-### 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |-------|------------|
@@ -32,38 +118,41 @@
 
 ---
 
-## 1. Running Application.
+## Getting Started
 
-### OPTION 1 (RECOMMENDED) : Install .apk file from github releases
+### 1. Running Application
 
-1. Install apk files from **github releases** and start using application
-2. To connect backend, open app, go to settings and then scroll to bottom to setup ip address of the computer where backend is running (more on that down)
+#### OPTION 1 (RECOMMENDED) : Install .apk file from GitHub releases
 
-### OPTION 2 : DEV MODE, run application using laptop
+1. Install apk files from **GitHub releases** and start using the application.
+2. To connect backend, open the app, go to **Settings**, scroll to the bottom, and enter the IP address of the computer where the backend is running.
 
-#### 1. Prerequisites : 
+#### OPTION 2 : DEV MODE — Run application using laptop
 
-- **Node.js**: (v18 or higher recommended)
-- **Python**: (v3.9 or higher recommended)
+##### Prerequisites
+
+- **Node.js**: v18 or higher recommended
+- **Python**: v3.9 or higher recommended
 - **Expo CLI**: `npm install -g expo-cli`
 - **Android Studio / Android SDK**: Required if you want to run the native Android build locally.
 - **Physical Android Device**: Recommended for testing hardware features (Camera, Microphone).
 
-#### 2. Enviroment Variables: 
+##### Environment Variables
 
-`EXPO_PUBLIC_MAPBOX_TOKEN=your_mapbox_token_here`
+```
+EXPO_PUBLIC_MAPBOX_TOKEN=your_mapbox_token_here
+```
 
-#### 3. Installing Dependencies
+##### Installing Dependencies
 
-Navigate to `safe_map_git` it contains whole codebase for mobile app, as well as fully integrated backend
+Navigate to `safe_map_git` — it contains the whole codebase for the mobile app, as well as the fully integrated backend.
 
 1. Install Node dependencies:
    ```bash
    npm install
    ```
-   *(This creates the `node_modules` folder).*
 
-2. Rebuild and run the native Android app:
+2. Rebuild and run the native Android app.
    Connect your physical Android device via USB (with USB Debugging enabled), then run:
    ```bash
    npx expo run:android
@@ -78,8 +167,7 @@ Navigate to `safe_map_git` it contains whole codebase for mobile app, as well as
 
 ---
 
-
-## 🔌 2. Running Backend
+### 2. Running Backend
 
 The backend powers the AI routing, Siren Detection, and Drowsiness checks.
 
