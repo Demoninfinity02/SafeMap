@@ -16,6 +16,23 @@ Each route is evaluated using **street light density, crowding levels, safety co
 - Instead of just the fastest route, SafeMap suggests the **safest optimal route**.
 - Routes are dynamically re-ranked as live conditions change.
 
+#### Factor Weighting Strategy
+
+Not every risk affects safety equally — our model prioritizes **direct threats to life first**.
+
+| Factor | Impact | Normal Weight | Women Mode Weight |
+|--------|--------|:---:|:---:|
+| Crime history | Direct physical danger | 0.40 | 0.50 ↑ |
+| Street lighting | Crime deterrent | 0.25 | 0.30 ↑ |
+| Crowd density | Social protection | 0.15 | 0.15 — |
+| Potholes | Accident risk | 0.20 | 0.05 ↓ |
+
+**Formulas:**
+
+$$\text{SafetyScore} = 0.40 \times \text{Crime} + 0.25 \times \text{Lighting} + 0.20 \times \text{Potholes} + 0.15 \times \text{Crowd}$$
+
+$$\text{WomenSafetyScore} = 0.50 \times \text{Crime} + 0.30 \times \text{Lighting} + 0.15 \times \text{Crowd} + 0.05 \times \text{Potholes}$$
+
 ---
 
 ### 2. Collaborative Pothole & Hazard Network
