@@ -4,6 +4,18 @@
 
 Current navigation apps are obsessed with time but blind to humanity. They route us through toxic pollution, dark isolated streets, and over hazardous roads — just to save sixty seconds. **SafeMap changes that.**
 
+
+
+---
+
+APP DATA FLOW
+
+<img width="1134" height="786" alt="image" src="https://github.com/user-attachments/assets/593636da-1057-4bb1-b8ce-ad2acac95bdf" />
+
+
+---
+
+
 ---
 ### App to download link
 
